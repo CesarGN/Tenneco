@@ -17,10 +17,10 @@ and open the template in the editor.
   background-color: whitesmoke;
   border-color: whitesmoke;
 }
-img{
-   border-style: none;
+.img2{
    border: solid 1px;
-   
+   border-color: whitesmoke;
+ 
 }
 .panel-default>.panel-heading{
     background: #666666; /* Old browsers */
