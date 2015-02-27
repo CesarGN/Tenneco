@@ -13,8 +13,8 @@
         <!-- Respond.js proxy on external server -->
         <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
 
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="html5shiv-master/dist/html5shiv.js"></script>
+        <script src=""></script>
 
         <link rel="shortcut icon" href="imgs/ico.png" type="image/png" />
         <!-- Respond.js redirect location on local server -->
@@ -23,11 +23,112 @@
         <script type="text/javascript" src="jquery.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $("#hide").click(function(){
-                    $("#element").hide();
+                $("#O1").click(function(){
+                    $("#DivO1").show();
+                    $("#DivG1").hide();
+                    $("#DivG2").hide();
+                    $("#DivG3").hide();
+                    $("#DivA1").hide();
+                    $("#DivA2").hide();
+                    $("#DivA3").hide();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").hide();
+                    return false;
                 });
-                $("#show").click(function(){
-                    $("#element").show();
+                $("#G1").click(function(){
+                    $("#DivG1").show();
+                    $("#DivO1").hide();
+                    $("#DivG2").hide();
+                    $("#DivG3").hide();
+                    $("#DivA1").hide();
+                    $("#DivA2").hide();
+                    $("#DivA3").hide();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").hide();
+                    return false;
+                });
+                $("#G2").click(function(){
+                    $("#DivG2").show();
+                    $("#DivO1").hide();
+                    $("#DivG1").hide();
+                    $("#DivG3").hide();
+                    $("#DivA1").hide();
+                    $("#DivA2").hide();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").hide();
+                    return false;
+                });
+                $("#G3").click(function(){
+                    $("#DivG3").show();
+                    $("#DivO1").hide();
+                    $("#DivG1").hide();
+                    $("#DivG2").hide();
+                    $("#DivA1").hide();
+                    $("#DivA2").hide();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").hide();
+                    return false;
+                });
+                $("#A1").click(function(){
+                    $("#DivA1").show();
+                    $("#DivO1").hide();
+                    $("#DivG1").hide();
+                    $("#DivG2").hide();
+                    $("#DivG3").hide();
+                    $("#DivA2").hide();
+                    $("#DivA3").hide();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").hide();
+                    return false;
+                });
+                $("#A2").click(function(){
+                    $("#DivA1").hide();
+                    $("#DivA2").show();
+                    $("#DivO1").hide();
+                    $("#DivG1").hide();
+                    $("#DivG2").hide();
+                    $("#DivG3").hide();
+                    $("#DivA3").hide();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").hide();
+                    return false;
+                });
+                $("#A3").click(function(){
+                    $("#DivA1").hide();
+                    $("#DivO1").hide();
+                    $("#DivG1").hide();
+                    $("#DivG2").hide();
+                    $("#DivG3").hide();
+                    $("#DivA1").hide();
+                    $("#DivA2").hide();
+                    $("#DivA3").show();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").hide();
+                    return false;
+                });
+                $("#AS1").click(function(){
+                    $("#DivA1").hide();
+                    $("#DivO1").hide();
+                    $("#DivG1").hide();
+                    $("#DivG2").hide();
+                    $("#DivG3").hide();
+                    $("#DivA2").hide();
+                    $("#DivA3").hide();
+                    $("#DivAS2").hide();
+                    $("#DivAS1").show();
+                    return false;
+                });
+                $("#AS2").click(function(){
+                    $("#DivA1").hide();
+                    $("#DivO1").hide();
+                    $("#DivG1").hide();
+                    $("#DivG2").hide();
+                    $("#DivG3").hide();
+                    $("#DivA2").hide();
+                    $("#DivA3").hide();
+                    $("#DivAS1").hide();
+                    $("#DivAS2").show();
+                    return false;
                 });
             });
         </script>
@@ -37,7 +138,7 @@
         <!-- Contenedor para el encabezado Tenneco-->
         <div class="container-fluid">
             <div class="margen">
-                <div class="row fondoamarillo margen">      </div>
+                <div class="row fondomarg fondoColor margen">      </div>
                 <div class="row">
                     <div class="col-lg-12 ">
                         <a class="thumbnail adapta">
@@ -45,7 +146,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row fondoamarillob">
+                <div class="row fondomargb fondoColor">
                 </div>
             </div>
 
@@ -139,7 +240,7 @@
                                         <table class="table">
                                             <tr>
                                                 <td>
-                                                    <a class="a2" href="http://www.jquery2dotnet.com">Bolsa de trabajo</a> <span class="label label-success">Vacantes 320</span>
+                                                    <a class="ai2" href="#" id="O1">Bolsa de trabajo</a> <span class="label label-success">Vacantes 320</span>
                                                 </td>
                                             </tr>
 
@@ -159,17 +260,17 @@
                                         <table class="table">
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-globe"></span><a class="a2" href="http://www.jquery2dotnet.com">¿Quienes somos?</a>
+                                                    <span class="glyphicon glyphicon-globe"></span><a class="ai2" href="#" id="G1">¿Quienes somos?</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-time"></span><a class="a2" href="http://www.jquery2dotnet.com">¿Por qué trabajar con nosotros?</a>
+                                                    <span class="glyphicon glyphicon-time"></span><a class="ai2" href="#" id="G2">¿Por qué trabajar con nosotros?</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-book"></span><a class="a2" href="http://www.jquery2dotnet.com">¿Cual es nuestra misión?</a>
+                                                    <span class="glyphicon glyphicon-book"></span><a class="ai2" href="#" id="G3">¿Cual es nuestra misión?</a>
                                                 </td>
                                             </tr>
 
@@ -189,17 +290,17 @@
                                         <table class="table">
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-open"></span><a class="a2" href="#">Postulate</a>
+                                                    <span class="glyphicon glyphicon-open"></span><a class="ai2" href="#" id="A1">Postulate</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-saved"></span><a class="a2" href="http://www.jquery2dotnet.com">Contratación</a>
+                                                    <span class="glyphicon glyphicon-saved"></span><a class="ai2" href="#" id="A2">Contratación</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-info-sign"></span><a class="a2" href="http://www.jquery2dotnet.com">Tips para tu CV</a>
+                                                    <span class="glyphicon glyphicon-info-sign"></span><a class="ai2" href="#" id="A3">Tips para tu CV</a>
                                                 </td>
                                             </tr>
                                         </table>
@@ -218,12 +319,12 @@
                                         <table class="table">
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-earphone"></span><a class="a2" href="http://www.jquery2dotnet.com">Telefonos</a>
+                                                    <span class="glyphicon glyphicon-earphone"></span><a class="ai2" href="#" id="AS1">Telefonos</a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <span class="glyphicon glyphicon-envelope"></span><a class="a2" href="http://www.jquery2dotnet.com">E-mail</a>
+                                                    <span class="glyphicon glyphicon-envelope"></span><a class="ai2" href="#" id="AS2">E-mail</a>
                                                 </td>
                                             </tr>
 
@@ -233,19 +334,108 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-9 col-md-9 ">
+                    <!---- Div 1 mostrar-->
+
+                    <div class="col-sm-9 col-md-9 efecto" id="DivO1" style="display: none;">
                         <div class="well col-sm-offset-0">
-                            <h1>
-                                Contenido</h1>
+                            <h1 href="#">
+                                Contenido
+                            </h1>
 
                         </div>
                     </div>
+                    <!---- Div 2 mostrar-->
+                    <div class="col-sm-9 col-md-9" id="DivG1" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <div class="fblanco"> 
+                            
+                            <h1 href="#"> Tenneco nace en el año de 1943  </h1>
+                            <p> Es el productor y comercializador de sistemas 
+                                de escape más grande del mundo produciendo uno 
+                                de cada cuatro amortiguadores y sistemas de escape 
+                                vendidos.
+                            </p>
+                 
+                           
+                  
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivG2" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                Ya
+                            </h1>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivG3" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                Salio
+                            </h1>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivA1" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                yeii
+                            </h1>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivA2" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                ii
+                            </h1>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivA3" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                i
+                            </h1>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivAS1" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                weerwedfdfsdfs
+                            </h1>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivAS2" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                ye
+                            </h1>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9" id="DivAS3" style="display: none;">
+                        <div class="well col-sm-offset-0">
+                            <h1 href="#">
+                                y
+                            </h1>
+
+                        </div>
+                    </div>
+
                 </div> 
             </div>
-                    
+
+
+
             <!-- Comienza contenedor de miniaturas-->
-            <div class="row">
+            <div class="row"> 
                 <marquee  scrolldelay="-1" scrollamount="7" direction="left" loop="infinite" onmouseout="this.start()" onmouseover="this.stop()">
+
                     <a href="http://www.monroe.com.mx/home/oespectrum" target="_blank">
                         <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada" src="imgs/minis/minis monroe/m1.png"/></a>
                     <a href="http://www.monroe.com.mx/home/reflex" target="_blank">
@@ -261,8 +451,9 @@
                     <a href="http://www.monroe.com.mx/home/sensa_trac" target="_blank">
                         <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m7.png"/></a>
                 </marquee>
+                <div class="fondomargb fondoColor"></div>
             </div>
-        </div> <!-- Termina contenedor de miniaturas-->
+        </div>
 
     </body>
 </html>
