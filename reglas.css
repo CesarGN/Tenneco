@@ -10,6 +10,9 @@ and open the template in the editor.
 #carousel-example-generic{
     margin-top: 100px;
 }
+.fblanco{
+    background-color: whitesmoke;
+}
 
 .panel-default>.panel-heading{
     background: #666666; /* Old browsers */
