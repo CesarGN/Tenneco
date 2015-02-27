@@ -350,7 +350,7 @@
                             <div class="fblanco"> 
                                 <div class="col-lg-12 ">
                                     <a class="thumbnail ab5" >
-                                        <img src="imgs/12.JPG" >
+                                            <img src="imgs/12.JPG" >
                                     </a>
                                 </div>
                                 <h1 href="#"> Tenneco nace en el año de 1943  </h1>

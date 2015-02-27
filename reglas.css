@@ -19,6 +19,7 @@ and open the template in the editor.
 }
 img{
    border-style: none;
+   border: solid 1px;
    
 }
 .panel-default>.panel-heading{
