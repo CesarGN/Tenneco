@@ -348,112 +348,116 @@
                     <div class="col-sm-9 col-md-9" id="DivG1" style="display: none;">
                         <div class="well col-sm-offset-0">
                             <div class="fblanco"> 
-                            
-                            <h1 href="#"> Tenneco nace en el año de 1943  </h1>
-                            <p> Es el productor y comercializador de sistemas 
-                                de escape más grande del mundo produciendo uno 
-                                de cada cuatro amortiguadores y sistemas de escape 
-                                vendidos.
-                            </p>
-                 
-                           
-                  
+                                <div class="col-lg-12 ">
+                                    <a class="thumbnail ab5" >
+                                        <img src="imgs/tenneco.png" >
+                                    </a>
+                                </div>
+                                <h1 href="#"> Tenneco nace en el año de 1943  </h1>
+                                <p> Es el productor y comercializador de sistemas 
+                                    de escape más grande del mundo produciendo uno 
+                                    de cada cuatro amortiguadores y sistemas de escape 
+                                    vendidos.
+                                </p>
 
+
+
+
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivG2" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                Ya
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivG2" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    Ya
+                                </h1>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivG3" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                Salio
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivG3" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    Salio
+                                </h1>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivA1" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                yeii
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivA1" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    yeii
+                                </h1>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivA2" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                ii
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivA2" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    ii
+                                </h1>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivA3" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                i
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivA3" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    i
+                                </h1>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivAS1" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                weerwedfdfsdfs
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivAS1" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    weerwedfdfsdfs
+                                </h1>
 
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivAS2" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                ye
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivAS2" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    ye
+                                </h1>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-9 col-md-9" id="DivAS3" style="display: none;">
-                        <div class="well col-sm-offset-0">
-                            <h1 href="#">
-                                y
-                            </h1>
+                        <div class="col-sm-9 col-md-9" id="DivAS3" style="display: none;">
+                            <div class="well col-sm-offset-0">
+                                <h1 href="#">
+                                    y
+                                </h1>
 
+                            </div>
                         </div>
-                    </div>
 
-                </div> 
+                    </div> 
+                </div>
+
+
+
+                <!-- Comienza contenedor de miniaturas-->
+                <div class="row"> 
+                    <marquee  scrolldelay="-1" scrollamount="7" direction="left" loop="infinite" onmouseout="this.start()" onmouseover="this.stop()">
+
+                        <a href="http://www.monroe.com.mx/home/oespectrum" target="_blank">
+                            <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada" src="imgs/minis/minis monroe/m1.png"/></a>
+                        <a href="http://www.monroe.com.mx/home/reflex" target="_blank">
+                            <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m2.png"/></a>
+                        <a href="http://www.monroe.com.mx/home/max_air" target="_blank">
+                            <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m3.png"/></a>
+                        <a href="http://www.monroe.com.mx/home/max_lift" target="_blank">
+                            <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m4.png"/></a>
+                        <a href="http://www.monroe.com.mx/home/gas_magnum" target="_blank">
+                            <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m5.png"/></a>
+                        <a href="http://www.monroe.com.mx/home/monro_matic_plus" target="_blank">
+                            <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m6.png"/></a>
+                        <a href="http://www.monroe.com.mx/home/sensa_trac" target="_blank">
+                            <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m7.png"/></a>
+                    </marquee>
+                    <div class="fondomargb fondoColor"></div>
+                </div>
             </div>
-
-
-
-            <!-- Comienza contenedor de miniaturas-->
-            <div class="row"> 
-                <marquee  scrolldelay="-1" scrollamount="7" direction="left" loop="infinite" onmouseout="this.start()" onmouseover="this.stop()">
-
-                    <a href="http://www.monroe.com.mx/home/oespectrum" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada" src="imgs/minis/minis monroe/m1.png"/></a>
-                    <a href="http://www.monroe.com.mx/home/reflex" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m2.png"/></a>
-                    <a href="http://www.monroe.com.mx/home/max_air" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m3.png"/></a>
-                    <a href="http://www.monroe.com.mx/home/max_lift" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m4.png"/></a>
-                    <a href="http://www.monroe.com.mx/home/gas_magnum" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m5.png"/></a>
-                    <a href="http://www.monroe.com.mx/home/monro_matic_plus" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m6.png"/></a>
-                    <a href="http://www.monroe.com.mx/home/sensa_trac" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m7.png"/></a>
-                </marquee>
-                <div class="fondomargb fondoColor"></div>
-            </div>
-        </div>
 
     </body>
 </html>
