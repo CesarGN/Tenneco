@@ -10,7 +10,9 @@ and open the template in the editor.
 #carousel-example-generic{
     margin-top: 100px;
 }
-
+.fblanco{
+    background-color: whitesmoke;
+}
 .panel-default>.panel-heading{
     background: #666666; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #666666 41%, #474747 62%, #131313 84%, #131313 84%, #474747 89%, #1c1c1c 93%, #111111 99%, #2c2c2c 100%, #1c1c1c 100%, #595959 100%, #000000 100%); /* FF3.6+ */
