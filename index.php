@@ -21,124 +21,14 @@
         <link href="/path/to/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
 
         <script type="text/javascript" src="jquery.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("#O1").click(function(){
-                    $("#DivO1").show();
-                    $("#DivG1").hide();
-                    $("#DivG2").hide();
-                    $("#DivG3").hide();
-                    $("#DivA1").hide();
-                    $("#DivA2").hide();
-                    $("#DivA3").hide();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").hide();
-                    return false;
-                });
-                $("#G1").click(function(){
-                    $("#DivG1").show();
-                    $("#DivO1").hide();
-                    $("#DivG2").hide();
-                    $("#DivG3").hide();
-                    $("#DivA1").hide();
-                    $("#DivA2").hide();
-                    $("#DivA3").hide();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").hide();
-                    return false;
-                });
-                $("#G2").click(function(){
-                    $("#DivG2").show();
-                    $("#DivO1").hide();
-                    $("#DivG1").hide();
-                    $("#DivG3").hide();
-                    $("#DivA1").hide();
-                    $("#DivA2").hide();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").hide();
-                    return false;
-                });
-                $("#G3").click(function(){
-                    $("#DivG3").show();
-                    $("#DivO1").hide();
-                    $("#DivG1").hide();
-                    $("#DivG2").hide();
-                    $("#DivA1").hide();
-                    $("#DivA2").hide();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").hide();
-                    return false;
-                });
-                $("#A1").click(function(){
-                    $("#DivA1").show();
-                    $("#DivO1").hide();
-                    $("#DivG1").hide();
-                    $("#DivG2").hide();
-                    $("#DivG3").hide();
-                    $("#DivA2").hide();
-                    $("#DivA3").hide();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").hide();
-                    return false;
-                });
-                $("#A2").click(function(){
-                    $("#DivA1").hide();
-                    $("#DivA2").show();
-                    $("#DivO1").hide();
-                    $("#DivG1").hide();
-                    $("#DivG2").hide();
-                    $("#DivG3").hide();
-                    $("#DivA3").hide();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").hide();
-                    return false;
-                });
-                $("#A3").click(function(){
-                    $("#DivA1").hide();
-                    $("#DivO1").hide();
-                    $("#DivG1").hide();
-                    $("#DivG2").hide();
-                    $("#DivG3").hide();
-                    $("#DivA1").hide();
-                    $("#DivA2").hide();
-                    $("#DivA3").show();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").hide();
-                    return false;
-                });
-                $("#AS1").click(function(){
-                    $("#DivA1").hide();
-                    $("#DivO1").hide();
-                    $("#DivG1").hide();
-                    $("#DivG2").hide();
-                    $("#DivG3").hide();
-                    $("#DivA2").hide();
-                    $("#DivA3").hide();
-                    $("#DivAS2").hide();
-                    $("#DivAS1").show();
-                    return false;
-                });
-                $("#AS2").click(function(){
-                    $("#DivA1").hide();
-                    $("#DivO1").hide();
-                    $("#DivG1").hide();
-                    $("#DivG2").hide();
-                    $("#DivG3").hide();
-                    $("#DivA2").hide();
-                    $("#DivA3").hide();
-                    $("#DivAS1").hide();
-                    $("#DivAS2").show();
-                    return false;
-                });
-            });
-        </script>
+        <script type="text/javascript" src="acordeon.js"></script>
 
     </head>
     <body>
         <!-- Contenedor para el encabezado Tenneco-->
         <div class="container-fluid">
             <div class="margen">
-                <div class="row fondomarg fondoColor margen">      </div>
+                <div class="row fondomarg degradadoazul margen">      </div>
                 <div class="row">
                     <div class="col-lg-12 ">
                         <a class="thumbnail adapta">
@@ -146,7 +36,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row fondomargb fondoColor">
+                <div class="row fondomargb degradadoazul">
                 </div>
             </div>
 
@@ -236,7 +126,7 @@
                                     </h4>
                                 </div>
                                 <div id="collapseOne" class="panel-collapse collapse">
-                                    <div class="panel-body">
+                                    <div class="panel-body degradadoazul">
                                         <table class="table">
                                             <tr>
                                                 <td>
@@ -256,7 +146,7 @@
                                     </h4>
                                 </div>
                                 <div id="collapseTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
+                                    <div class="panel-body degradadoazul">
                                         <table class="table">
                                             <tr>
                                                 <td>
@@ -286,7 +176,7 @@
                                     </h4>
                                 </div>
                                 <div id="collapseThree" class="panel-collapse collapse">
-                                    <div class="panel-body">
+                                    <div class="panel-body degradadoazul">
                                         <table class="table">
                                             <tr>
                                                 <td>
@@ -315,7 +205,7 @@
                                     </h4>
                                 </div>
                                 <div id="collapseFour" class="panel-collapse collapse">
-                                    <div class="panel-body">
+                                    <div class="panel-body degradadoazul">
                                         <table class="table">
                                             <tr>
                                                 <td>
@@ -353,18 +243,23 @@
                                             <img src="imgs/12.JPG" >
                                     </a>
                                 </div>
-                                <h1 href="#"> Tenneco nace en el año de 1943  </h1>
-                                <p> Es el productor y comercializador de sistemas 
+                                <h1 class="margh1" href="#"> Tenneco nace en el año de 1943  </h1>
+                                <p class="margdiv"> Es el productor y comercializador de sistemas 
                                     de escape más grande del mundo produciendo uno 
                                     de cada cuatro amortiguadores y sistemas de escape 
                                     vendidos.
+                                    Tenneco Celaya inicia con su apertura en el año
+                                    1995 en la ciudad de Querétaro y en el año 2005
+                                    se cambia a la ciudad de Celaya.
                                 </p>
 
 
 
 
                             </div>
+                            
                         </div>
+                    </div>
                         <div class="col-sm-9 col-md-9" id="DivG2" style="display: none;">
                             <div class="well col-sm-offset-0">
                                 <h1 href="#">
@@ -455,7 +350,7 @@
                         <a href="http://www.monroe.com.mx/home/sensa_trac" target="_blank">
                             <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m7.png"/></a>
                     </marquee>
-                    <div class="fondomargb fondoColor"></div>
+                    <div class="fondomarg degradadoazul"></div>
                 </div>
             </div>
 
