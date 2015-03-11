@@ -1,4 +1,11 @@
 <?php
-
-echo'hola mundo';
+include ('layouts/Cabecera.php');
 ?>
+
+
+
+<?php
+include ('layouts/Pie.php');
+?>
+
+
