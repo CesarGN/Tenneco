@@ -123,7 +123,7 @@ a {
 }
 
 body{
-    background-image: url(imgs/wall.png);
+    background-image: url(../imgs/wall.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

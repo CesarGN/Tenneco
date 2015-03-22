@@ -9,29 +9,32 @@
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="screen" href="reglas.css">
+        <link rel="stylesheet" type="screen" href="bootstrap/mios/reglas.css">
         <!-- Respond.js proxy on external server -->
         <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
 
         <script src="html5shiv-master/dist/html5shiv.js"></script>
         <script src=""></script>
 
-        <link rel="shortcut icon" href="imgs/ico.png" type="image/png" />
+        <link rel="shortcut icon" href="../imgs/ico.png" type="image/png" />
         <!-- Respond.js redirect location on local server -->
         <link href="/path/to/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
 
-        <script type="text/javascript" src="jquery.js"></script>
-        <script type="text/javascript" src="acordeon.js"></script>
-        <script type="text/javascript" src="jquery.js"></script>
-        <link rel="stylesheet" type="text/css" href="reglamodal.css">
-        <script type="text/javascript">
+        <script type="text/javascript" src="bootstrap/mios/jquery.js"></script>
+        <script type="text/javascript" src="bootstrap/mios/acordeon.js"></script>
+        <script type="text/javascript" src="bootstrap/mios/jquery.js"></script>
+        <script type="text/javascript" src="bootstrap/mios/funciones.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap/mios/reglamodal.css">
+        
+        
+<!--        <script type="text/javascript">
             function openVentana(){
                 $(".ventana").slideDown(1000);
             }
             function closeVentana(){
                 $(".ventana").slideUp("fast");
             }
-        </script>
+        </script>-->
     </head>
     <body>
         <!-- Contenedor para el encabezado Tenneco-->
@@ -41,7 +44,7 @@
                 <div class="row">
                     <div class="col-lg-12 ">
                         <a class="thumbnail adapta">
-                            <img src="imgs/header_logo.png" >
+                            <img src="../imgs/header_logo.png" >
                         </a>
                     </div>
                 </div>
@@ -67,31 +70,31 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner carrusel">
                             <div class="item active">
-                                <img src="imgs/1.gif" alt="...">
+                                <img src="../imgs/1.gif" alt="...">
                                 <div class="carousel-caption">
                                     <h3></h3>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="imgs/2.jpg" alt="...">
+                                <img src="../imgs/2.jpg" alt="...">
                                 <div class="carousel-caption">
                                     <h3></h3>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="imgs/3.jpg" alt="..."> 
+                                <img src="../imgs/3.jpg" alt="..."> 
                                 <div class="carousel-caption">
                                     <h3></h3>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="imgs/4.jpg" alt="...">
+                                <img src="../imgs/4.jpg" alt="...">
                                 <div class="carousel-caption">
                                     <h3></h3>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="imgs/5.jpg" alt="...">
+                                <img src="../imgs/5.jpg" alt="...">
                                 <div class="carousel-caption">
                                     <h3></h3>
                                 </div>
@@ -248,7 +251,7 @@
                             <div class="fblanco"> 
                                 <div class="col-lg-12 ">
                                     <a class="thumbnail ab5" >
-                                        <img src="imgs/12.JPG" >
+                                        <img src="../imgs/12.JPG" >
                                     </a>
                                 </div>
                                 <h1 class="margh1" href="#"> Tenneco nace en el año de 1943  </h1>
@@ -280,7 +283,7 @@
                             <div class="fblanco"> 
                                 <div class="col-lg-12 ">
                                     <a class="thumbnail ab5" >
-                                        <img src="imgs/12.JPG" >
+                                        <img src="../imgs/12.JPG" >
                                     </a>
                                 </div>
                                 <h1 class="margh1" href="#"> Politica de Calidad  </h1>
@@ -357,19 +360,19 @@
                 <marquee  scrolldelay="-1" scrollamount="7" direction="left" loop="infinite" onmouseout="this.start()" onmouseover="this.stop()">
 
                     <a href="http://www.monroe.com.mx/home/oespectrum" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada" src="imgs/minis/minis monroe/m1.png"/></a>
+                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada" src="../imgs/minis/minis monroe/m1.png"/></a>
                     <a href="http://www.monroe.com.mx/home/reflex" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m2.png"/></a>
+                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="../imgs/minis/minis monroe/m2.png"/></a>
                     <a href="http://www.monroe.com.mx/home/max_air" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m3.png"/></a>
+                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="../imgs/minis/minis monroe/m3.png"/></a>
                     <a href="http://www.monroe.com.mx/home/max_lift" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m4.png"/></a>
+                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="../imgs/minis/minis monroe/m4.png"/></a>
                     <a href="http://www.monroe.com.mx/home/gas_magnum" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m5.png"/></a>
+                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="../imgs/minis/minis monroe/m5.png"/></a>
                     <a href="http://www.monroe.com.mx/home/monro_matic_plus" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m6.png"/></a>
+                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="../imgs/minis/minis monroe/m6.png"/></a>
                     <a href="http://www.monroe.com.mx/home/sensa_trac" target="_blank">
-                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="imgs/minis/minis monroe/m7.png"/></a>
+                        <img class="img-rounded" style="margin-right: 15px;" title="Titulo de la entrada" alt="Titulo de la entrada"  src="../imgs/minis/minis monroe/m7.png"/></a>
                 </marquee>
                 <div class="fondomarg degradadoazul"></div>
             </div>
@@ -379,7 +382,7 @@
 
             <div class="ventana">
                 <div class="form">
-                    <div class="cerrar"><a href="javascript:closeVentana();">Cerrar X</a></div>
+                    <div class="cerrar"><a href="closeVentana();">Cerrar X</a></div>
                     <form>
                         <table>
                             <fieldset>
