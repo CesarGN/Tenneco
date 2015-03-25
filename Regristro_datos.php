@@ -22,7 +22,7 @@
             </div>
             <fieldset class="field"> 
                 <legend> Ingresa   </legend>
-                <form method="post" action="index.php" class="login">
+                <form method="post" action="Altas_bajas.php" class="login">
                     <p>
                         <label for="login">Email:</label>
                         <input type="text" name="login" id="login" placeholder="name@example.com">
