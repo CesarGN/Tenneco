@@ -22,7 +22,7 @@
             </div>
             <fieldset class="field"> 
                 <legend> Ingresa   </legend>
-                <form method="post" action="index.html" class="login">
+                <form method="post" action="index.php" class="login">
                     <p>
                         <label for="login">Email:</label>
                         <input type="text" name="login" id="login" placeholder="name@example.com">
@@ -34,10 +34,10 @@
                     </p>
 
                     <p class="login-submit">
-                        <button type="submit" class="login-button"></button>
+                        <button type="submit" class="login-button" href=""></button>
                     </p>
 
-                    <p class="forgot-password"><a href="index.html"><b>Forgot your password?</b></a></p>
+                    <p class="forgot-password"><a href="index.php"><b>Forgot your password?</b></a></p>
                 </form>
             </fieldset>  
         </div>
