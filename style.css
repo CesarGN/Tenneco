@@ -130,16 +130,18 @@ a:hover {
 }
 
 .login {
+    height: 150px;
+    margin-top: 150px;
     position: relative;
     margin: 80px auto;
-    width: 400px;
+    width: 482px;
     padding-right: 32px;
     font-weight: 300;
     color: #F2EEEE;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
 }
 .login p {
-    margin: 0 0 10px;
+    margin: 24px;
 }
 
 input, button, label {
@@ -187,11 +189,12 @@ label {
 }
 
 .login-submit {
+    margin-top: 7px;
     position: absolute;
     top: 13px;
     right:  0;
-    width: 48px;
-    height: 48px;
+    width: 65px;
+    height: 65px;
     padding: 8px;
     border-radius: 32px;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
@@ -310,7 +313,5 @@ label {
     font: 25px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #F2EEEE;
 }
-
-
 
 

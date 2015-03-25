@@ -7,6 +7,9 @@ and open the template in the editor.
     Created on : 19/02/2015, 09:39:26 AM
     Author     : DVC
 */
+alinear{
+    text-align: center;
+}
 #carousel-example-generic{
     margin-top: 100px;
 }

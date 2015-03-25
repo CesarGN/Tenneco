@@ -5,23 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Dark Login Form</title>
         <link rel="stylesheet" href="style.css">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
     <body>
-        <div class="container">
+        <div class="containerfluid">
             <div class="margen">
                 <div class="row fondomarg degradadoazul margen">      </div>
-                <div class="row">
+                <div class="row " style="height: 121px;">
                     <div class="col-lg-12 ">
-                        <a class="thumbnail adapta">
-                            <img src="imgs/header_logo.png" >
+                        <a class="thumbnail">                    
+                            <img src="imgs/header_logo.png" >                            
                         </a>
                     </div>
                 </div>
                 <div class="row fondomargb degradadoazul">
                 </div>
             </div>
-            <fieldset class="field"> 
-                <legend> Ingresa   </legend>
+            <div class="row  col-lg-10 col-lg-offset-1">              
                 <form method="post" action="Altas_bajas.php" class="login">
                     <p>
                         <label for="login">Email:</label>
@@ -33,13 +33,14 @@
                         <input type="password" name="password" id="password" placeholder="***********">
                     </p>
 
-                    <p class="login-submit">
+                    <p class="login-submit" style="margin-top: 7px;">
                         <button type="submit" class="login-button" href=""></button>
                     </p>
 
                     <p class="forgot-password"><a href="index.php"><b>Forgot your password?</b></a></p>
                 </form>
-            </fieldset>  
+            </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
