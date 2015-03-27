@@ -113,7 +113,7 @@ input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-sea
     -webkit-appearance:none
 }
 fieldset{
-    padding:.35em .625em .75em;margin:0 2px;border:1px solid silver
+    padding:.35em .625em .75em;margin:0 2px;border:px solid silver
 }
 legend{
     padding:0;border:0
@@ -180,7 +180,8 @@ td,th{
              .table-bordered td,.table-bordered th{
                  border:1px solid #ddd!important
              }}@font-face{font-family:'Glyphicons Halflings';src:url(../fonts/glyphicons-halflings-regular.eot);
-             src:format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff2) 
+                          src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) 
+                              format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff2)  
                  format('woff2'),url(../fonts/glyphicons-halflings-regular.woff) 
                  format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) 
                  format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) 
@@ -1414,9 +1415,9 @@ border-right:0}
 border-bottom:0}
 }
 fieldset{
-min-width:0;padding:0;margin:0;border:0}
+min-width:0;padding:0;margin:0;border:px}
 legend{
-display:block;width:100%;padding:0;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border:0;border-bottom:1px solid #e5e5e5}
+display:block;width:100%;padding:0;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border:0;}
 label{
 display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}
 input[type=search]{

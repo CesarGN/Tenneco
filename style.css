@@ -105,13 +105,6 @@ table {
     margin: 0 -1px;
 }
 
-/*
- * Copyright (c) 2012-2013 Thibaut Courouble
- * http://www.cssflow.com
- *
- * Licensed under the MIT License:
- * http://www.opensource.org/licenses/mit-license.php
-*/
 body, .login-submit, .login-submit:before, .login-submit:after {
     background: #4c4c4c url("img/bg.png") 0 0 repeat;
 }
@@ -141,8 +134,9 @@ a:hover {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
 }
 .login p {
-    margin: 24px;
+    margin: 20px;
 }
+
 
 input, button, label {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -299,19 +293,6 @@ label {
 .lt-ie9 .about {
     background: #313131;
 }
-.field {
-    margin-left: 450px;
-    margin-right: 450px;
-    margin-top: 25px;
-    margin-bottom: 15‒;
-    margin-bottom: 250px;
-    border-left-width: 8px;
-    border-top-width: 8px;
-    border-right-width: 8px;
-    border-bottom-width: 8px;
-    border-color: #FFE119;
-    font: 25px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #F2EEEE;
-}
+
 
 

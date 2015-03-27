@@ -324,7 +324,7 @@
             </div>
             <!-- Comienza contenedor de miniaturas-->
             <div class="row"> 
-                <marquee  scrolldelay="-1" scrollamount="7" direction="left" loop="infinite" onmouseout="this.start()" onmouseover="this.stop()">
+                <marquee scrolldelay="-1" scrollamount="7" loop="infinite" onmouseout="this.start()" onmouseover="this.stop()">
                     <a href="http://www.monroe.com.mx/home/oespectrum" target="_blank">
                         <img class="img-rounded" style="margin-right: 15px;" title="OESpectrum" alt="Titulo de la entrada" src="imgs/minis/minis monroe/m1.png"/></a>
                     <a href="http://www.monroe.com.mx/home/reflex" target="_blank">
