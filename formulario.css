@@ -34,7 +34,7 @@ body {
     color: #404040;
 }
 .container{
-    margin-top: 75px;
+    margin-top: 15px;
     background-color: #00a2d3;
     border-radius: 25px;
     height: 1200px;
@@ -130,4 +130,17 @@ label {
 }
 
 
+
+.cajademo3-auxiliar {
+  float: left;
+  position: relative;
+  left: 50%;
+  margin-top: 35px;
+ }
+.cajademo3 {
+  margin: 0;
+  padding: 10px 10px 20px 5px;
+  position: relative;
+  left: -50%;
+ }
 

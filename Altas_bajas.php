@@ -12,7 +12,7 @@
     <body>
         <div class="containerfluid">
             <div class="margen">
-                <div class="row fondomarg degradadoazul margen">      
+                <div class="row fondomarg degradadoazul">      
                 </div>
                 <div class="row" style="height: 121px;">
                     <div class="col-lg-12 ">
@@ -22,6 +22,21 @@
                     </div>
                 </div>
                 <div class="row fondomargb degradadoazul">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cajademo3-auxiliar"> 
+                <div class="cajademo3">
+                    <a class="thumbnail" style="float: left;">
+                        <img src="img/1.png">
+                    </a>
+                    <a class="thumbnail" style="float: left;">
+                        <img src="img/3.png" >
+                    </a>
+                    <a class="thumbnail" style="float: left;">
+                        <img src="img/2.png" >
+                    </a>
                 </div>
             </div>
         </div>
@@ -129,7 +144,7 @@
                             Caracteristicas Personales:
                             <textarea class="form-control" rows="3" style="resize: none;"></textarea><br/>
                         </fieldset>
-                     
+
                     </table>     
                 </div>
             </div>
