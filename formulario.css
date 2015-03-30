@@ -5,7 +5,23 @@
     Description:
         Purpose of the stylesheet follows.
 */
+.puestofield{
+    
+    width: 522.22222232818604px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 
+}
+.perfilfield{
+    width: 522.22222232818604px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.margenlegend{
+    width: auto;
+}
 root { 
     display: block;
 }
@@ -21,25 +37,28 @@ body {
     margin-top: 75px;
     background-color: #00a2d3;
     border-radius: 25px;
+    height: 1200px;
 }
 .izquierda{
     background-color: #C0E0EB;
     float: left;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 25px;
+    margin-top: 45px;
+    margin-left: 85px;
+    margin-bottom: 45px;
     margin-right: none;
     border-radius: 20px 0 0 20px;
+    height: 1110px;
 }   
 .derecha{
    background-color: #ABD5E5; 
    float: left;
-   margin-top: 25px;
+   margin-top: 45px;
     margin-left: none;
-    margin-bottom: 25px;
-    margin-right: 25px;
+    margin-bottom: 45px;
+    margin-right: 45px;
     border-radius: 0 20px 20px 0;
-    width: 900px;
+    width: 700px;
+    height: 1110px;
 }
 
 body {
