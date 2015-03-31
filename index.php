@@ -227,7 +227,7 @@
                     </div>
                     <!---- Div 2 mostrar-->
                     <div class="col-sm-9 col-md-9" id="DivG1" style="display: none;">
-                        <div class="well col-sm-offset-0">
+                        <div class="well col-sm-offset-0" style="color: black">
                             <div class="fblanco"> 
                                 <div class="col-lg-12 ">
                                     <a class="thumbnail ab5" >
@@ -250,14 +250,14 @@
                         </div>
                     </div>
                     <div class="col-sm-9 col-md-9" id="DivG2" style="display: none;">
-                        <div class="well col-sm-offset-0">
+                        <div class="well col-sm-offset-0" style="color: black">
                             <h1 href="#">
                                 Ya
                             </h1>
                         </div>
                     </div>
                     <div class="col-sm-9 col-md-9" id="DivG3" style="display: none;">
-                        <div class="well col-sm-offset-0">
+                        <div class="well col-sm-offset-0" style="color: black">
                             <div class="fblanco"> 
                                 <div class="col-lg-12 ">
                                     <a class="thumbnail ab5" >
@@ -279,21 +279,21 @@
                         </div>
                     </div>
                     <div class="col-sm-9 col-md-9" id="DivA1" style="display: none;">
-                        <div class="well col-sm-offset-0">
+                        <div class="well col-sm-offset-0" style="color: black">
                             <h1 href="#">
                                 yeii
                             </h1>
                         </div>
                     </div>
                     <div class="col-sm-9 col-md-9" id="DivA2" style="display: none;">
-                        <div class="well col-sm-offset-0">
+                        <div class="well col-sm-offset-0" style="color: black">
                             <h1 href="#">
                                 ii
                             </h1>
                         </div>
                     </div>
                     <div class="col-sm-9 col-md-9" id="DivA3" style="display: none;">
-                        <div class="well col-sm-offset-0">
+                        <div class="well col-sm-offset-0" style="color: black">
                             <h1 href="#">
                                 i
                             </h1>
