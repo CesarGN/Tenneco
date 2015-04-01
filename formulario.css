@@ -6,11 +6,12 @@
         Purpose of the stylesheet follows.
 */
 .puestofield{
-    
+
     width: 522.22222232818604px;
     height: auto;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 15px;
 
 }
 .perfilfield{
@@ -34,10 +35,12 @@ body {
     color: #404040;
 }
 .container{
+    overflow: hidden;
     margin-top: 15px;
     background-color: #00a2d3;
     border-radius: 25px;
-    height: 1200px;
+    height: auto;
+    width: 100%;
 }
 .izquierda{
     background-color: #C0E0EB;
@@ -50,9 +53,9 @@ body {
     height: 1110px;
 }   
 .derecha{
-   background-color: #ABD5E5; 
-   float: left;
-   margin-top: 45px;
+    background-color: #ABD5E5; 
+    float: left;
+    margin-top: 45px;
     margin-left: none;
     margin-bottom: 45px;
     margin-right: 45px;
@@ -117,8 +120,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
 label {
     float: left;
     width: 100px;
@@ -131,15 +132,15 @@ label {
 
 
 .cajademo3-auxiliar {
-  float: left;
-  position: relative;
-  left: 50%;
-  margin-top: 35px;
- }
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-top: 35px;
+}
 .cajademo3 {
-  margin: 0;
-  padding: 10px 10px 20px 5px;
-  position: relative;
-  left: -50%;
- }
+    margin: 0;
+    padding: 10px 10px 20px 5px;
+    position: relative;
+    left: -50%;
+}
 

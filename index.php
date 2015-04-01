@@ -348,11 +348,11 @@
                     <div class="cerrar"><a href="javascript:closeVentana();">Cerrar X</a></div>
                     <form>
                         <table>
-                            <fieldset>
-                                <legend> Datos de la empresa   </legend>
+                            <fieldset class="fD">
+                                <legend class="lD"> Datos de la empresa   </legend>
                             </fieldset>
-                            <fieldset>
-                                <legend>Datos personales</legend>
+                            <fieldset class="fD">
+                                <legend class="lD">Datos personales</legend>
                                 Nombre <br/>
                                 <input type="text" name="nombre" value="" />
                                 <br/>

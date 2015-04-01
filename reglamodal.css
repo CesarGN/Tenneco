@@ -7,7 +7,14 @@
 */
 
 
+.lD{
+    width: auto;
+    height: auto;
+}
 
+.fD{
+    margin-bottom: 25px;
+}
 body {
   color: #F9E40D;
   font-family: Arial;
