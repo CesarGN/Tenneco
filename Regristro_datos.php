@@ -39,7 +39,10 @@
                     </p>
 
                     <p class="login-submit" style="margin-top: 88px;">
-                        <button type="submit" class="login-button" href=""></button>
+                        <button type="submit" class="login-button" style="padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;"></button>
                     </p>
 
                     <p class="forgot-password"><a href="index.php"><b>Forgot your password?</b></a></p>
