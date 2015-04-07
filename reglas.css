@@ -1,8 +1,4 @@
 
-/* 
-    Created on : 19/02/2015, 09:39:26 AM
-    Author     : DVC
-*/
 alinear{
     text-align: center;
 }
@@ -40,15 +36,14 @@ alinear{
     color: #F9E40D;
 }
 
-a {
-    color: #E9ED21;
+.ai3 {
+    color: #212BEE;
     font-family: Verdana, Geneva, sans-serif;
 }
 
 .ai2{
     font-size: 15px;
     color: black;
-
 }
 .panel-title {
     margin-top: 0;
@@ -124,12 +119,20 @@ body{
 .adapta{
     background-color: black;
     margin-bottom: 0px;
+    
 }
-
+.adapta1{
+    background-image: url(img/barra.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0px; 
+    height: 50px;
+}
 hr{
     height: 20px;
 }
-
 .centrar{
     text-align: center;
 }
@@ -139,8 +142,6 @@ hr{
     margin-top: 40px;
 }
 
-/*A:visited {text-decoration:none;color:#F9E40D;} */
-/*A:active {text-decoration:none;color:#0E0E0E;} */
 A:visited {
   text-decoration: none;
   color: #F5F5F4;
@@ -182,3 +183,22 @@ A:visited {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=1 );
 }
 
+.margizq{
+   padding-left: 0px;
+   margin-left: 0px;
+}
+.margder{
+    padding-right: 2px;
+    width: 62px;
+}
+.txtacceder{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #2887D5 !important; 
+}
+
+
+.textoama{
+text-decoration:none;
+color: #F9E40D;
+}

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Dark Login Form</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Estilo.css">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
     <body>
@@ -39,10 +39,7 @@
                     </p>
 
                     <p class="login-submit" style="margin-top: 88px;">
-                        <button type="submit" class="login-button" style="padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;"></button>
+                        <button type="submit" class="login-button"></button>
                     </p>
 
                     <p class="forgot-password"><a href="index.php"><b>Forgot your password?</b></a></p>

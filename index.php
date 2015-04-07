@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<?php
+//estos van de ley
+include ('../Librerias/adodb5/adodb.inc.php');
+include ('../Modelo/Conexion.php');
+include ('../Modelo/Modelo.php');
+//este se incluye dependiendo de la vista q sea, cada vista tiene su controlador
+include ('../Controlador/Principal_controlador.php');
+
+$obj_prin_cont = new principal_controlador();
+$arreglo = $obj_prin_cont->regresa_total_vacantes();
+$total_vacantes = $arreglo[0][0];
+
+$arreglo = $obj_prin_cont->regresa_vacantes();
+//echo'<pre>';
+//print_r($arreglo);
+//echo'</pre>';
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -9,7 +26,6 @@
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="screen" href="reglas.css">
         <!-- Respond.js proxy on external server -->
         <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
         <script src="html5shiv-master/dist/html5shiv.js"></script>
@@ -21,6 +37,7 @@
         <script type="text/javascript" src="acordeon.js"></script>
         <script type="text/javascript" src="jquery.js"></script>
         <link rel="stylesheet" type="text/css" href="reglamodal.css">
+        <link rel="stylesheet" type="text/css" href="reglas.css">
         <script type="text/javascript">
             function openVentana(){
                 $(".ventana").slideDown(1000);
@@ -32,9 +49,26 @@
     </head>
     <body>
         <!-- Contenedor para el encabezado Tenneco-->
+
         <div class="container-fluid">
-            <div class="margen">
-                <div class="row fondomarg degradadoazul margen">      </div>
+            <div class="row adapta1">
+
+                <div class="col-lg-1 col-lg-offset-10 margder">
+
+                    <a class="thumbnail margizq">
+                        <img class="margizq" src="img/mon.png" >
+                    </a>
+                </div>
+                <div class="col-lg-1 margizq txtacceder">
+                    <a href="Login.php" class="ai3">
+                         Acceder
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="margen" style="margin-top: 0px;">
+                <div class="row fondomarg degradadoazul margen" style="margin-top: 0px;">      
+                </div>
                 <div class="row">
                     <div class="col-lg-12 ">
                         <a class="thumbnail adapta">
@@ -221,7 +255,14 @@
                     <div class="col-sm-9 col-md-9 efecto" id="DivO1" style="display: none;">
                         <div class="well col-sm-offset-0">
                             <h1 href="#">
-                                <h2><a href="javascript:openVentana();">Ver mas...></a></h2>
+                                <h2><a class="textoama" href="javascript:openVentana();">   
+                                <?php
+                            for ($i = 0; $i < sizeof($arreglo); $i++){
+                                echo '<h3> Nombre: ' . $arreglo[$i][1] . '</h3>';
+                            echo '<h6> Descripcion: ' . $arreglo[$i][2] . '</h6>';
+                            echo '<h6> Descripcion: ' . $arreglo[$i][3] . '</h6>';}
+                            ?>
+                                    </a></h2>
                             </h1>
                         </div>
                     </div>
